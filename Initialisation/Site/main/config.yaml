@@ -1,0 +1,142 @@
+base: '/'
+errorHandling:
+  -
+    errorCode: 404
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=8'
+  -
+    errorCode: 0
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=8'
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    languageId: 0
+    base: /
+    typo3Language: de
+    locale: de_DE
+    iso-639-1: de
+    navigationTitle: DE
+    hreflang: de-DE
+    direction: ltr
+    flag: de
+    websiteTitle: ''
+rootPageId: 1
+routeEnhancers:
+  PageTypeSuffix:
+    type: PageType
+    default: /
+    index: ''
+    map:
+      /: 0
+      feed.xml: 9818
+      sitemap.xml: 1533906435
+  NewsList:
+    type: Extbase
+    limitToPages:
+      - 1
+      - 26
+    extension: News
+    plugin: Pi1
+    routes:
+      -
+        routePath: /
+        _controller: 'News::list'
+      -
+        routePath: '/seite-{page}'
+        _controller: 'News::list'
+        _arguments:
+          page: currentPage
+    defaultController: 'News::list'
+    defaults:
+      page: '0'
+    aspects:
+      page:
+        type: StaticRangeMapper
+        start: '1'
+        end: '100'
+  NewsDetail:
+    type: Extbase
+    limitToPages:
+      - 27
+      - 31
+    extension: News
+    plugin: Pi1
+    routes:
+      -
+        routePath: '/{year}/{month}/{day}/{news-title}'
+        _controller: 'News::detail'
+        _arguments:
+          news-title: news
+          year: year
+          month: month
+          day: day
+        requirements:
+          month: \d+
+          year: \d+
+          day: \d+
+    defaultController: 'News::detail'
+    defaults:
+      month: ''
+      year: ''
+      day: ''
+    aspects:
+      year:
+        type: StaticRangeMapper
+        start: '2020'
+        end: '2040'
+      month:
+        type: StaticRangeMapper
+        start: '01'
+        end: '12'
+      day:
+        type: StaticRangeMapper
+        start: '01'
+        end: '31'
+      news-title:
+        type: PersistedAliasMapper
+        tableName: tx_news_domain_model_news
+        routeFieldName: path_segment
+  EventList:
+    type: Extbase
+    limitToPages:
+      - 25
+    extension: Calendarize
+    plugin: Calendar
+    routes:
+      -
+        routePath: /
+        _controller: 'Calendar::list'
+    defaultController: 'Calendar::list'
+  EventDetail:
+    type: Extbase
+    limitToPages:
+      - 30
+    extension: Calendarize
+    plugin: Calendar
+    routes:
+      -
+        routePath: '/{event-title}'
+        _controller: 'Calendar::detail'
+        _arguments:
+          event-title: index
+          year: year
+          month: month
+          day: day
+        requirements:
+          month: '\d{1,2}'
+          year: '\d{4}'
+          day: '\d{1,2}'
+    defaultController: 'Calendar::detail'
+    aspects:
+      event-title:
+        type: PersistedAliasMapper
+        tableName: tx_calendarize_domain_model_index
+        routeFieldName: slug
+routes:
+  -
+    route: robots.txt
+    type: staticText
+    content: "User-agent: *\r\nAllow: /\r\n\r\n# folders\r\nDisallow: /typo3/\r\nDisallow: /typo3_src/\r\n\r\n# Don't index the search folder\r\nDisallow: /search/*\r\n\r\n# parameters\r\nDisallow: /*?id=*               # non speaking URLs\r\nDisallow: /*cHash               # no cHash\r\nDisallow: /*tx_form_formframework    # no forms\r\n\r\n# sitemap\r\n# Sitemap: https://your-domain.de/sitemap.xml"
+websiteTitle: Stamm
