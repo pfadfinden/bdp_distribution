@@ -11,3 +11,6 @@ With this extension you can set up a ready-to-use BdP website. Regional associat
 - Start the TYPO3-Setup. Select in the last step "Take me straight to the backend"
 - run `vendor/bin/typo3 extension:setup` to activate and import the Starting Package
 - After the first import this extension can be removed from your installation
+- change the Page identifiers (pid) of the 404 error page [TYPO3 Dokumentation](https://docs.typo3.org/m/typo3/reference-coreapi/11.5/en-us/ApiOverview/SiteHandling/Basics.html)
+- change the pids of the routing configuration to match the imported page (NewsDetail,NewsList, etc.) in the site configuration `Sites/main/config.yaml`
+- Update in robots.txt of the site configuration the Sitemap to your domain.
