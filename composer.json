@@ -18,15 +18,15 @@
     }
   ],
   "require": {
-    "typo3/cms-core": "^11.5",
-    "typo3/cms-rte-ckeditor": "^11.5",
-    "typo3/cms-fluid-styled-content": "^11.5",
-    "typo3/cms-impexp": "^11.5.0",
-    "pfadfinden/bdp_template": "^5.0",
-    "georgringer/news": "^10.0",
-    "friendsoftypo3/tt-address": "^7.0",
-    "georgringer/numbered-pagination": "^1.0",
-    "lochmueller/calendarize": "^12.3"
+    "typo3/cms-core": "^12.4",
+    "typo3/cms-rte-ckeditor": "^12.4",
+    "typo3/cms-fluid-styled-content": "^12.4",
+    "typo3/cms-impexp": "^12.4",
+    "pfadfinden/bdp_template": "^6.0.1",
+    "georgringer/news": "^11.4",
+    "friendsoftypo3/tt-address": "^8.0",
+    "georgringer/numbered-pagination": "^2.0",
+    "lochmueller/calendarize": "^13.0"
   },
   "autoload": {
     "psr-4": {

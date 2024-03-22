@@ -9,8 +9,8 @@
 			<packager_username>pfadfinden_admin</packager_username>
 			<packager_name></packager_name>
 			<packager_email></packager_email>
-			<TYPO3_version>11.5.25</TYPO3_version>
-			<created>Friday 31. March 2023</created>
+			<TYPO3_version>12.4.13</TYPO3_version>
+			<created>Fri 22. March 2024</created>
 		</meta>
 		<static_tables index="relStaticTables" type="array"></static_tables>
 		<excludeMap type="array"></excludeMap>
@@ -1916,7 +1916,6 @@
 				<field index="pid" type="integer">0</field>
 				<field index="tstamp" type="integer">1673289224</field>
 				<field index="crdate" type="integer">1673078602</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -1972,7 +1971,6 @@
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout">pagets__header_with_one_column</field>
 				<field index="backend_layout_next_level">pagets__header_with_one_column</field>
 				<field index="tsconfig_includes">EXT:bdp_template/Configuration/TsConfig/Page/All.tsconfig</field>
@@ -2032,7 +2030,6 @@
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673291159</field>
 				<field index="crdate" type="integer">1673291055</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -2048,7 +2045,6 @@
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">assets</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -2056,7 +2052,6 @@
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -2076,7 +2071,6 @@
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673291857</field>
 				<field index="crdate" type="integer">1673291857</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -2092,7 +2086,6 @@
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">image</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -2100,7 +2093,6 @@
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -2120,7 +2112,6 @@
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673623297</field>
 				<field index="crdate" type="integer">1673079614</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -2128,10 +2119,6 @@
 				<field index="sorting" type="integer">256</field>
 				<field index="description" type="NULL"></field>
 				<field index="t3_origuid" type="integer">0</field>
-				<field index="t3ver_oid" type="integer">0</field>
-				<field index="t3ver_wsid" type="integer">0</field>
-				<field index="t3ver_state" type="integer">0</field>
-				<field index="t3ver_stage" type="integer">0</field>
 				<field index="title">NEW SITE</field>
 				<field index="root" type="integer">1</field>
 				<field index="clear" type="integer">3</field>
@@ -2220,7 +2207,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673623338</field>
 				<field index="crdate" type="integer">1673291636</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -2238,7 +2224,7 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="t3ver_wsid" type="integer">0</field>
 				<field index="t3ver_state" type="integer">0</field>
 				<field index="t3ver_stage" type="integer">0</field>
-				<field index="CType">list</field>
+				<field index="CType">news_newsliststicky</field>
 				<field index="header"></field>
 				<field index="header_position"></field>
 				<field index="bodytext" type="NULL"></field>
@@ -2264,7 +2250,7 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="header_link"></field>
 				<field index="image_zoom" type="integer">0</field>
 				<field index="header_layout">0</field>
-				<field index="list_type">news_pi1</field>
+				<field index="list_type"></field>
 				<field index="sectionIndex" type="integer">1</field>
 				<field index="linkToTop" type="integer">0</field>
 				<field index="file_collections" type="NULL"></field>
@@ -2312,9 +2298,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
                 &lt;/field&gt;
                 &lt;field index=&quot;settings.recursive&quot;&gt;
                     &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;switchableControllerActions&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;News-&amp;gt;list&lt;/value&gt;
                 &lt;/field&gt;
             &lt;/language&gt;
         &lt;/sheet&gt;
@@ -2441,7 +2424,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673291857</field>
 				<field index="crdate" type="integer">1673291857</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -2552,7 +2534,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673291159</field>
 				<field index="crdate" type="integer">1673291055</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -2644,7 +2625,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673079968</field>
 				<field index="crdate" type="integer">1673079146</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -2700,7 +2680,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -2730,7 +2709,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">7</field>
 				<field index="tstamp" type="integer">1673288253</field>
 				<field index="crdate" type="integer">1673079334</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -2786,7 +2764,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes">EXT:news/Configuration/TSconfig/Page/news_only.tsconfig</field>
@@ -2828,7 +2805,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">13</field>
 				<field index="tstamp" type="integer">1673288175</field>
 				<field index="crdate" type="integer">1673288160</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -2851,13 +2827,13 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="images" type="integer">0</field>
 				<field index="single_pid" type="integer">31</field>
 				<field index="shortcut" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 				<field index="import_source"></field>
 				<field index="seo_title"></field>
 				<field index="seo_description"></field>
 				<field index="seo_headline"></field>
 				<field index="seo_text"></field>
 				<field index="slug">news</field>
+				<field index="import_id"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="items" type="array">
@@ -2884,9 +2860,8 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 			<fieldlist index="data" type="array">
 				<field index="uid" type="integer">14</field>
 				<field index="pid" type="integer">13</field>
-				<field index="tstamp" type="integer">1673622121</field>
+				<field index="tstamp" type="integer">1711097525</field>
 				<field index="crdate" type="integer">1673622088</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -2902,7 +2877,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="tablenames">tx_news_domain_model_news</field>
 				<field index="fieldname">fal_media</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -2910,7 +2884,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">2</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -2928,7 +2901,7 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 			<fieldlist index="data" type="array">
 				<field index="uid" type="integer">1</field>
 				<field index="pid" type="integer">13</field>
-				<field index="tstamp" type="integer">1673622121</field>
+				<field index="tstamp" type="integer">1711097525</field>
 				<field index="crdate" type="integer">1673622057</field>
 				<field index="cruser_id" type="integer">1</field>
 				<field index="t3ver_oid" type="integer">0</field>
@@ -2948,15 +2921,10 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="fe_group"></field>
 				<field index="notes"></field>
 				<field index="l10n_state" type="NULL"></field>
-				<field index="t3ver_id" type="integer">0</field>
-				<field index="t3ver_label"></field>
-				<field index="t3ver_count" type="integer">0</field>
-				<field index="t3ver_tstamp" type="integer">0</field>
-				<field index="t3ver_move_id" type="integer">0</field>
 				<field index="sorting" type="integer">0</field>
 				<field index="title">12. Bundeslager in Königsdorf bei München</field>
 				<field index="teaser"></field>
-				<field index="bodytext">&lt;p&gt;Vom 29.07.-08.08.2022 kommen 5000 Pfadfinder*innen des BdPs unter dem Motto „Lebens&lt;em&gt;T&lt;/em&gt;räume - Natur erleben. Träume gestalten“ und ihre zahlreichen internationalen Pfadfinder*innengäste zusammen. In der Jugendsiedlung Hochland in Königsdorf errichten die Pfadfinder*innen eine Zeltstadt, nehmen an selbst organisierten Umwelt- und Gesellschaftsworkshops teil und machen Erkundungen zu Fuß, per Rad oder Kanu im Alpenvorland.&amp;nbsp;10 Tage lang erleben sie in der Gemeinschaft das Abenteuer Pfadfinden.&lt;/p&gt;
+				<field index="bodytext">&lt;p&gt;Vom 29.07.-08.08.2022 kommen 5000 Pfadfinder*innen des BdPs unter dem Motto „Lebens&lt;i&gt;T&lt;/i&gt;räume - Natur erleben. Träume gestalten“ und ihre zahlreichen internationalen Pfadfinder*innengäste zusammen. In der Jugendsiedlung Hochland in Königsdorf errichten die Pfadfinder*innen eine Zeltstadt, nehmen an selbst organisierten Umwelt- und Gesellschaftsworkshops teil und machen Erkundungen zu Fuß, per Rad oder Kanu im Alpenvorland.&amp;nbsp;10 Tage lang erleben sie in der Gemeinschaft das Abenteuer Pfadfinden.&lt;/p&gt;
 &lt;p&gt;Ein Bundeslager findet alle vier Jahre statt und wird ausschließlich von Ehrenamtlichen geleitet, da zu den Hauptpfeilern des BdPs Eigenverantwortung und Selbstgestaltung gehören. Etwa 400 Teamende haben so neben Beruf, Studium oder Schule fast zwei Jahre lang an den Vorbereitungen gearbeitet.&lt;/p&gt;
 &lt;p&gt;Der Pfadfinder*innen-Alltag findet auch auf so einem großen Treffen statt. Es gibt altersspezifisches Tagesprogramm, Abenteuer und Action. Die Teilnehmenden im Alter ab 10 Jahren bauen nach der Anreise ihre Schwarzzelte (Jurten und Kothen) auf und entwerfen mit ihren Konstruktionen einen selbstgestalteten Lebensraum. Die Gruppen kochen für sich und jede*r übernimmt auch Dienste wie Abwaschen, Holz hacken und Nachtwache. Abends machen sie Lagerfeuer, singen, tauschen sich aus und schließen neue Freundschaften.&lt;/p&gt;
 &lt;p&gt;Die zahlreichen internationalen Pfadfinder*innengäste machen diese Begegnung kulturell vielfältig und fördern den internationalen Austausch.&lt;/p&gt;</field>
@@ -3005,7 +2973,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">7</field>
 				<field index="tstamp" type="integer">1673287633</field>
 				<field index="crdate" type="integer">1673079326</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -3061,7 +3028,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -3091,7 +3057,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">7</field>
 				<field index="tstamp" type="integer">1673288263</field>
 				<field index="crdate" type="integer">1673079310</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -3147,7 +3112,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes">EXT:news/Configuration/TSconfig/Page/news_only.tsconfig</field>
@@ -3189,7 +3153,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">11</field>
 				<field index="tstamp" type="integer">1673288228</field>
 				<field index="crdate" type="integer">1673288228</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -3212,13 +3175,13 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="images" type="integer">0</field>
 				<field index="single_pid" type="integer">27</field>
 				<field index="shortcut" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 				<field index="import_source"></field>
 				<field index="seo_title"></field>
 				<field index="seo_description"></field>
 				<field index="seo_headline"></field>
 				<field index="seo_text"></field>
 				<field index="slug">bericht</field>
+				<field index="import_id"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="single_pid" type="array">
@@ -3238,7 +3201,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">7</field>
 				<field index="tstamp" type="integer">1673287012</field>
 				<field index="crdate" type="integer">1673079296</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -3294,7 +3256,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes">EXT:tt_address/Configuration/TSconfig/AllowedNewTables.typoscript</field>
@@ -3336,7 +3297,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">10</field>
 				<field index="tstamp" type="integer">1673618137</field>
 				<field index="crdate" type="integer">1673618114</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -3384,6 +3344,8 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="longitude" type="NULL"></field>
 				<field index="image">0</field>
 				<field index="categories" type="integer">0</field>
+				<field index="instagram"></field>
+				<field index="tiktok"></field>
 			</fieldlist>
 			<related index="rels" type="array"></related>
 		</tablerow>
@@ -3393,7 +3355,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">7</field>
 				<field index="tstamp" type="integer">1673079976</field>
 				<field index="crdate" type="integer">1673079277</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -3449,7 +3410,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -3614,7 +3574,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673079945</field>
 				<field index="crdate" type="integer">1673079130</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -3670,7 +3629,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -3700,7 +3658,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">6</field>
 				<field index="tstamp" type="integer">1673079958</field>
 				<field index="crdate" type="integer">1673079262</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -3756,7 +3713,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -3786,7 +3742,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">8</field>
 				<field index="tstamp" type="integer">1673626074</field>
 				<field index="crdate" type="integer">1673626068</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -3802,7 +3757,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">assets</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -3810,7 +3764,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -3831,7 +3784,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">8</field>
 				<field index="tstamp" type="integer">1673626074</field>
 				<field index="crdate" type="integer">1673626068</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -3923,7 +3875,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">6</field>
 				<field index="tstamp" type="integer">1673290333</field>
 				<field index="crdate" type="integer">1673286699</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -3979,7 +3930,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout">pagets__default</field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -4010,7 +3960,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">30</field>
 				<field index="tstamp" type="integer">1673289803</field>
 				<field index="crdate" type="integer">1673289724</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -4054,7 +4003,7 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="header_link"></field>
 				<field index="image_zoom" type="integer">0</field>
 				<field index="header_layout">0</field>
-				<field index="list_type">calendarize_calendar</field>
+				<field index="list_type">calendarize_detail</field>
 				<field index="sectionIndex" type="integer">1</field>
 				<field index="linkToTop" type="integer">0</field>
 				<field index="file_collections" type="NULL"></field>
@@ -4072,9 +4021,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
             &lt;language index=&quot;lDEF&quot;&gt;
                 &lt;field index=&quot;settings.pluginConfiguration&quot;&gt;
                     &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;switchableControllerActions&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;Calendar-&amp;gt;detail&lt;/value&gt;
                 &lt;/field&gt;
             &lt;/language&gt;
         &lt;/sheet&gt;
@@ -4178,7 +4124,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">6</field>
 				<field index="tstamp" type="integer">1673290315</field>
 				<field index="crdate" type="integer">1673286713</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -4234,7 +4179,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout">pagets__default</field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -4265,7 +4209,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">31</field>
 				<field index="tstamp" type="integer">1673622149</field>
 				<field index="crdate" type="integer">1673289891</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -4283,7 +4226,7 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="t3ver_wsid" type="integer">0</field>
 				<field index="t3ver_state" type="integer">0</field>
 				<field index="t3ver_stage" type="integer">0</field>
-				<field index="CType">list</field>
+				<field index="CType">news_newsdetail</field>
 				<field index="header"></field>
 				<field index="header_position"></field>
 				<field index="bodytext" type="NULL"></field>
@@ -4309,7 +4252,7 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="header_link"></field>
 				<field index="image_zoom" type="integer">0</field>
 				<field index="header_layout">0</field>
-				<field index="list_type">news_pi1</field>
+				<field index="list_type"></field>
 				<field index="sectionIndex" type="integer">1</field>
 				<field index="linkToTop" type="integer">0</field>
 				<field index="file_collections" type="NULL"></field>
@@ -4325,47 +4268,17 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
     &lt;data&gt;
         &lt;sheet index=&quot;sDEF&quot;&gt;
             &lt;language index=&quot;lDEF&quot;&gt;
-                &lt;field index=&quot;settings.orderBy&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.orderDirection&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.categoryConjunction&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.categories&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.includeSubCategories&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.archiveRestriction&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.timeRestriction&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.timeRestrictionHigh&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.topNewsRestriction&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.startingpoint&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;13&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.recursive&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
                 &lt;field index=&quot;settings.singleNews&quot;&gt;
                     &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
                 &lt;/field&gt;
                 &lt;field index=&quot;settings.previewHiddenRecords&quot;&gt;
                     &lt;value index=&quot;vDEF&quot;&gt;2&lt;/value&gt;
                 &lt;/field&gt;
-                &lt;field index=&quot;switchableControllerActions&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;News-&amp;gt;detail&lt;/value&gt;
+                &lt;field index=&quot;settings.startingpoint&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;13&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;settings.recursive&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
                 &lt;/field&gt;
             &lt;/language&gt;
         &lt;/sheet&gt;
@@ -4374,29 +4287,8 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
                 &lt;field index=&quot;settings.detailPid&quot;&gt;
                     &lt;value index=&quot;vDEF&quot;&gt;31&lt;/value&gt;
                 &lt;/field&gt;
-                &lt;field index=&quot;settings.listPid&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
                 &lt;field index=&quot;settings.backPid&quot;&gt;
                     &lt;value index=&quot;vDEF&quot;&gt;1&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.limit&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.offset&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.tags&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.hidePagination&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.list.paginate.itemsPerPage&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.topNewsFirst&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
                 &lt;/field&gt;
                 &lt;field index=&quot;settings.excludeAlreadyDisplayedNews&quot;&gt;
                     &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
@@ -4412,9 +4304,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
                     &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
                 &lt;/field&gt;
                 &lt;field index=&quot;settings.media.maxHeight&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;settings.cropMaxCharacters&quot;&gt;
                     &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
                 &lt;/field&gt;
                 &lt;field index=&quot;settings.templateLayout&quot;&gt;
@@ -4494,7 +4383,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673079937</field>
 				<field index="crdate" type="integer">1673079119</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -4550,7 +4438,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -4580,7 +4467,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">5</field>
 				<field index="tstamp" type="integer">1673286668</field>
 				<field index="crdate" type="integer">1673286605</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -4636,7 +4522,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -4666,7 +4551,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">29</field>
 				<field index="tstamp" type="integer">1673286978</field>
 				<field index="crdate" type="integer">1673286952</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -4722,7 +4606,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -4764,7 +4647,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">29</field>
 				<field index="tstamp" type="integer">1673286983</field>
 				<field index="crdate" type="integer">1673286872</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -4820,7 +4702,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -4862,7 +4743,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">5</field>
 				<field index="tstamp" type="integer">1673286663</field>
 				<field index="crdate" type="integer">1673286235</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -4918,7 +4798,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -4948,7 +4827,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">18</field>
 				<field index="tstamp" type="integer">1673286666</field>
 				<field index="crdate" type="integer">1673286585</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -5004,7 +4882,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -5044,7 +4921,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673079909</field>
 				<field index="crdate" type="integer">1673078668</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -5100,7 +4976,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -5130,7 +5005,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">4</field>
 				<field index="tstamp" type="integer">1673287823</field>
 				<field index="crdate" type="integer">1673078628</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -5186,7 +5060,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout">pagets__default</field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -5217,7 +5090,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">2</field>
 				<field index="tstamp" type="integer">1673287847</field>
 				<field index="crdate" type="integer">1673287847</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -5300,7 +5172,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">2</field>
 				<field index="tstamp" type="integer">1673288601</field>
 				<field index="crdate" type="integer">1673288601</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -5382,7 +5253,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">4</field>
 				<field index="tstamp" type="integer">1673287901</field>
 				<field index="crdate" type="integer">1673078646</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -5438,7 +5308,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout">pagets__default</field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -5469,7 +5338,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">3</field>
 				<field index="tstamp" type="integer">1673287911</field>
 				<field index="crdate" type="integer">1673287911</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -5552,7 +5420,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">3</field>
 				<field index="tstamp" type="integer">1673287946</field>
 				<field index="crdate" type="integer">1673287946</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -5634,7 +5501,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673617815</field>
 				<field index="crdate" type="integer">1673286197</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -5690,7 +5556,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout">pagets__default</field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -5721,7 +5586,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">17</field>
 				<field index="tstamp" type="integer">1673617838</field>
 				<field index="crdate" type="integer">1673617838</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -5804,7 +5668,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">17</field>
 				<field index="tstamp" type="integer">1673617860</field>
 				<field index="crdate" type="integer">1673617860</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -5887,7 +5750,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">17</field>
 				<field index="tstamp" type="integer">1673617970</field>
 				<field index="crdate" type="integer">1673617970</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -6011,7 +5873,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">17</field>
 				<field index="tstamp" type="integer">1673618001</field>
 				<field index="crdate" type="integer">1673618001</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -6104,7 +5965,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">17</field>
 				<field index="tstamp" type="integer">1673618168</field>
 				<field index="crdate" type="integer">1673618051</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -6255,7 +6115,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673286556</field>
 				<field index="crdate" type="integer">1673286264</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -6311,7 +6170,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -6341,7 +6199,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">19</field>
 				<field index="tstamp" type="integer">1673289536</field>
 				<field index="crdate" type="integer">1673286454</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -6397,7 +6254,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout">pagets__default</field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -6428,7 +6284,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">25</field>
 				<field index="tstamp" type="integer">1673289556</field>
 				<field index="crdate" type="integer">1673289556</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -6511,7 +6366,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">25</field>
 				<field index="tstamp" type="integer">1673289649</field>
 				<field index="crdate" type="integer">1673289611</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -6555,7 +6409,7 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="header_link"></field>
 				<field index="image_zoom" type="integer">0</field>
 				<field index="header_layout">0</field>
-				<field index="list_type">calendarize_calendar</field>
+				<field index="list_type">calendarize_latest</field>
 				<field index="sectionIndex" type="integer">1</field>
 				<field index="linkToTop" type="integer">0</field>
 				<field index="file_collections" type="NULL"></field>
@@ -6588,9 +6442,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
                 &lt;/field&gt;
                 &lt;field index=&quot;settings.overrideEnddate&quot;&gt;
                     &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;switchableControllerActions&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;Calendar-&amp;gt;latest&lt;/value&gt;
                 &lt;/field&gt;
                 &lt;field index=&quot;settings.overrideStartRelative&quot;&gt;
                     &lt;value index=&quot;vDEF&quot;&gt;now&lt;/value&gt;
@@ -6696,7 +6547,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">19</field>
 				<field index="tstamp" type="integer">1673289321</field>
 				<field index="crdate" type="integer">1673286487</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -6752,7 +6602,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout">pagets__default</field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -6783,7 +6632,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">26</field>
 				<field index="tstamp" type="integer">1673289489</field>
 				<field index="crdate" type="integer">1673289366</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -6801,7 +6649,7 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="t3ver_wsid" type="integer">0</field>
 				<field index="t3ver_state" type="integer">0</field>
 				<field index="t3ver_stage" type="integer">0</field>
-				<field index="CType">list</field>
+				<field index="CType">news_newsliststicky</field>
 				<field index="header">Berichte</field>
 				<field index="header_position"></field>
 				<field index="bodytext" type="NULL"></field>
@@ -6827,7 +6675,7 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="header_link"></field>
 				<field index="image_zoom" type="integer">0</field>
 				<field index="header_layout">1</field>
-				<field index="list_type">news_pi1</field>
+				<field index="list_type"></field>
 				<field index="sectionIndex" type="integer">1</field>
 				<field index="linkToTop" type="integer">0</field>
 				<field index="file_collections" type="NULL"></field>
@@ -6875,9 +6723,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
                 &lt;/field&gt;
                 &lt;field index=&quot;settings.recursive&quot;&gt;
                     &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
-                &lt;/field&gt;
-                &lt;field index=&quot;switchableControllerActions&quot;&gt;
-                    &lt;value index=&quot;vDEF&quot;&gt;News-&amp;gt;list&lt;/value&gt;
                 &lt;/field&gt;
             &lt;/language&gt;
         &lt;/sheet&gt;
@@ -7001,7 +6846,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">26</field>
 				<field index="tstamp" type="integer">1673290358</field>
 				<field index="crdate" type="integer">1673286496</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -7057,7 +6901,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout">pagets__default</field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -7104,7 +6947,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673286554</field>
 				<field index="crdate" type="integer">1673286181</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -7160,7 +7002,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -7190,7 +7031,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">16</field>
 				<field index="tstamp" type="integer">1673621281</field>
 				<field index="crdate" type="integer">1673286376</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -7246,7 +7086,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -7276,7 +7115,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">23</field>
 				<field index="tstamp" type="integer">1673621698</field>
 				<field index="crdate" type="integer">1673621698</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -7292,7 +7130,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">assets</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -7300,7 +7137,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -7321,7 +7157,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">23</field>
 				<field index="tstamp" type="integer">1673621698</field>
 				<field index="crdate" type="integer">1673621698</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -7413,7 +7248,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673286552</field>
 				<field index="crdate" type="integer">1673286173</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -7469,7 +7303,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -7499,7 +7332,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">15</field>
 				<field index="tstamp" type="integer">1673288568</field>
 				<field index="crdate" type="integer">1673288564</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -7555,7 +7387,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -7585,7 +7416,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">1</field>
 				<field index="tstamp" type="integer">1673286534</field>
 				<field index="crdate" type="integer">1673286153</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -7641,7 +7471,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -7671,7 +7500,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">14</field>
 				<field index="tstamp" type="integer">1673546428</field>
 				<field index="crdate" type="integer">1673545060</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -7687,7 +7515,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">image</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -7695,7 +7522,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;height&quot;:0.9811643835616438,&quot;width&quot;:0.794,&quot;x&quot;:0.174,&quot;y&quot;:0.018835616438356163},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -7715,7 +7541,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">14</field>
 				<field index="tstamp" type="integer">1673546297</field>
 				<field index="crdate" type="integer">1673546297</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -7731,7 +7556,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">assets</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -7739,7 +7563,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -7760,7 +7583,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">14</field>
 				<field index="tstamp" type="integer">1673546297</field>
 				<field index="crdate" type="integer">1673546297</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -7853,7 +7675,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">14</field>
 				<field index="tstamp" type="integer">1673546428</field>
 				<field index="crdate" type="integer">1673545060</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -7946,7 +7767,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">14</field>
 				<field index="tstamp" type="integer">1673288508</field>
 				<field index="crdate" type="integer">1673286384</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -8002,7 +7822,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -8032,7 +7851,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673546596</field>
 				<field index="crdate" type="integer">1673546596</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -8048,7 +7866,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">assets</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -8056,7 +7873,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -8076,7 +7892,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673627638</field>
 				<field index="crdate" type="integer">1673547156</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -8092,7 +7907,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">image</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -8100,7 +7914,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0.00019409739574657674,&quot;y&quot;:0.15592203898050974,&quot;width&quot;:0.99861180520850679,&quot;height&quot;:0.8425787106446776},&quot;selectedRatio&quot;:&quot;16:9&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -8120,7 +7933,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673547286</field>
 				<field index="crdate" type="integer">1673547257</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -8136,7 +7948,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">image</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -8144,7 +7955,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -8164,7 +7974,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673619280</field>
 				<field index="crdate" type="integer">1673547466</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -8180,7 +7989,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">image</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -8188,7 +7996,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -8208,7 +8015,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673630158</field>
 				<field index="crdate" type="integer">1673618859</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -8224,7 +8030,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">image</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -8232,7 +8037,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -8252,7 +8056,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673630182</field>
 				<field index="crdate" type="integer">1673621013</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="sys_language_uid" type="integer">0</field>
@@ -8268,7 +8071,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="tablenames">tt_content</field>
 				<field index="fieldname">image</field>
 				<field index="sorting_foreign" type="integer">1</field>
-				<field index="table_local">sys_file</field>
 				<field index="title" type="NULL"></field>
 				<field index="description" type="NULL"></field>
 				<field index="alternative" type="NULL"></field>
@@ -8276,7 +8078,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
 				<field index="autoplay" type="integer">0</field>
 				<field index="showinpreview" type="integer">0</field>
-				<field index="import_id" type="NULL"></field>
 			</fieldlist>
 			<related index="rels" type="array">
 				<field index="uid_local" type="array">
@@ -8297,7 +8098,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673627638</field>
 				<field index="crdate" type="integer">1673547078</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -8391,7 +8191,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673547286</field>
 				<field index="crdate" type="integer">1673547257</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -8485,7 +8284,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673619280</field>
 				<field index="crdate" type="integer">1673547466</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -8578,7 +8376,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673619247</field>
 				<field index="crdate" type="integer">1673618288</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -8661,7 +8458,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673630182</field>
 				<field index="crdate" type="integer">1673618927</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -8781,7 +8577,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673630158</field>
 				<field index="crdate" type="integer">1673618859</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -8933,7 +8728,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">24</field>
 				<field index="tstamp" type="integer">1673546596</field>
 				<field index="crdate" type="integer">1673546596</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -9025,7 +8819,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">14</field>
 				<field index="tstamp" type="integer">1673288499</field>
 				<field index="crdate" type="integer">1673286328</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -9081,7 +8874,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -9111,7 +8903,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">14</field>
 				<field index="tstamp" type="integer">1673288491</field>
 				<field index="crdate" type="integer">1673286316</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -9167,7 +8958,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout">pagets__default</field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -9198,7 +8988,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">21</field>
 				<field index="tstamp" type="integer">1673288332</field>
 				<field index="crdate" type="integer">1673288332</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -9281,7 +9070,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">21</field>
 				<field index="tstamp" type="integer">1673288380</field>
 				<field index="crdate" type="integer">1673288362</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -9364,7 +9152,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">21</field>
 				<field index="tstamp" type="integer">1673288408</field>
 				<field index="crdate" type="integer">1673288408</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -9447,7 +9234,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">21</field>
 				<field index="tstamp" type="integer">1673288426</field>
 				<field index="crdate" type="integer">1673288426</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -9530,7 +9316,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">21</field>
 				<field index="tstamp" type="integer">1673288459</field>
 				<field index="crdate" type="integer">1673288459</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -9612,7 +9397,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid" type="integer">14</field>
 				<field index="tstamp" type="integer">1673288482</field>
 				<field index="crdate" type="integer">1673286305</field>
-				<field index="cruser_id" type="integer">1</field>
 				<field index="deleted" type="integer">0</field>
 				<field index="hidden" type="integer">0</field>
 				<field index="starttime" type="integer">0</field>
@@ -9668,7 +9452,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="mount_pid" type="integer">0</field>
 				<field index="mount_pid_ol" type="integer">0</field>
 				<field index="l18n_cfg" type="integer">0</field>
-				<field index="fe_login_mode" type="integer">0</field>
 				<field index="backend_layout"></field>
 				<field index="backend_layout_next_level"></field>
 				<field index="tsconfig_includes" type="NULL"></field>
@@ -10160,7 +9943,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673079801</field>
 				<field index="crdate">1673079801</field>
-				<field index="cruser_id">0</field>
 				<field index="deleted">0</field>
 				<field index="description">This is the local fileadmin/ directory. This storage mount has been created automatically by TYPO3.</field>
 				<field index="name">fileadmin</field>
@@ -10207,7 +9989,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673622618</field>
 				<field index="crdate">1673291025</field>
-				<field index="cruser_id">1</field>
 				<field index="sys_language_uid">0</field>
 				<field index="l10n_parent">0</field>
 				<field index="l10n_state" type="NULL"></field>
@@ -10268,7 +10049,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673291606</field>
 				<field index="crdate">1673291573</field>
-				<field index="cruser_id">1</field>
 				<field index="sys_language_uid">0</field>
 				<field index="l10n_parent">0</field>
 				<field index="l10n_state" type="NULL"></field>
@@ -10329,7 +10109,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673547387</field>
 				<field index="crdate">1673546975</field>
-				<field index="cruser_id">1</field>
 				<field index="sys_language_uid">0</field>
 				<field index="l10n_parent">0</field>
 				<field index="l10n_state" type="NULL"></field>
@@ -10390,7 +10169,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673626029</field>
 				<field index="crdate">1673625996</field>
-				<field index="cruser_id">1</field>
 				<field index="sys_language_uid">0</field>
 				<field index="l10n_parent">0</field>
 				<field index="l10n_state" type="NULL"></field>
@@ -10451,7 +10229,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673622512</field>
 				<field index="crdate">1673621653</field>
-				<field index="cruser_id">1</field>
 				<field index="sys_language_uid">0</field>
 				<field index="l10n_parent">0</field>
 				<field index="l10n_state" type="NULL"></field>
@@ -10512,7 +10289,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673545718</field>
 				<field index="crdate">1673545048</field>
-				<field index="cruser_id">1</field>
 				<field index="sys_language_uid">0</field>
 				<field index="l10n_parent">0</field>
 				<field index="l10n_state" type="NULL"></field>
@@ -10573,7 +10349,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673546316</field>
 				<field index="crdate">1673546235</field>
-				<field index="cruser_id">1</field>
 				<field index="sys_language_uid">0</field>
 				<field index="l10n_parent">0</field>
 				<field index="l10n_state" type="NULL"></field>
@@ -10634,7 +10409,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673620936</field>
 				<field index="crdate">1673287186</field>
-				<field index="cruser_id">1</field>
 				<field index="sys_language_uid">0</field>
 				<field index="l10n_parent">0</field>
 				<field index="l10n_state" type="NULL"></field>
@@ -10695,7 +10469,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673620966</field>
 				<field index="crdate">1673287187</field>
-				<field index="cruser_id">1</field>
 				<field index="sys_language_uid">0</field>
 				<field index="l10n_parent">0</field>
 				<field index="l10n_state" type="NULL"></field>
@@ -10756,7 +10529,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673621064</field>
 				<field index="crdate">1673618664</field>
-				<field index="cruser_id">1</field>
 				<field index="sys_language_uid">0</field>
 				<field index="l10n_parent">0</field>
 				<field index="l10n_state" type="NULL"></field>
@@ -10817,7 +10589,6 @@ plugin.tx_news.settings.detail.checkPidOfNewsRecord = 1</field>
 				<field index="pid">0</field>
 				<field index="tstamp">1673620988</field>
 				<field index="crdate">1673620974</field>
-				<field index="cruser_id">1</field>
 				<field index="sys_language_uid">0</field>
 				<field index="l10n_parent">0</field>
 				<field index="l10n_state" type="NULL"></field>
